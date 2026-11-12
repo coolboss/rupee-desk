@@ -1,0 +1,11 @@
+{
+  "name": "rupee-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A private household finance planner for India, in one HTML file.",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node tests/engine.test.js",
+    "test:ui": "node tests/ui.js && node tests/flows.js && node tests/flows2.js"
+  }
+}
